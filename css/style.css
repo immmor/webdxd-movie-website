@@ -1,0 +1,158 @@
+
+
+
+
+html {
+	background: url(../img/background.jpg); 
+	background-size: cover;
+}
+
+nav {
+	background-color: black;
+	color: white;
+	height:200px;
+	position: fixed;
+	width: 100%;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+/*helper classes*/
+
+.center {
+	text-align: center;
+}
+
+/*other styles*/
+
+.nav-bar li {
+	display: inline-block;
+	font-size: 150px;
+}
+
+.nav-bar ul li{
+	height: 30px;
+}
+
+.nav-bar {
+	margin: 0;
+	display: block;
+	float: right;
+	margin-top: -8px;
+}
+
+.nav-bar li {
+	border: 1px solid white;
+	margin: 10px;
+	/* spcae between a and another object */
+	padding: 10px;
+	/*spcae between text content and border*/
+	padding-bottom: 0px;
+	transition: background-color  0.5s linear;
+}
+
+.nav-bar li:hover{
+	background-color: rgba(255,255,255,0.5);
+	cursor: pointer;
+}
+
+.nav-logo {
+	width: 40px;
+	margin-top: 2px;
+}
+
+.home-title {
+	font-family: 'Akronim', cursive;
+	font-size: 80px;
+}
+
+img {
+
+	width: 100%;
+
+}
+
+.poster{
+	
+	width:100%;
+	text-align: center;
+	margin-bottom: 20px
+
+}
+
+.poster div{
+	width: 30%;
+	margin: 0 1%;
+	border: 5px solid white;
+	display: inline-block;
+	position: relative;
+	transition: width 0.3s linear, margin 0.3s linear;
+}
+
+.poster div img{
+	width: 100%;
+}
+
+.poster div:hover{
+	width: 32%;
+	height: 0;
+}
+
+.poster div h3{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	transform: translateY(-50%);
+}
+
+.poster div h4{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	transform: translateY(-50%);
+}
+
+.poster div h5{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	transform: translateY(-50%);
+}
+
+
+
+footer {
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 10px;
+}
+
+footer ul{
+	margin: 0;
+	padding: 20px 0;
+}
+
+
+
+
+
